@@ -71,8 +71,6 @@ memegen                 IN  A     104.21.96.1
 memegen                 IN  A     104.21.112.1
 mesh                    IN  A     172.16.5.143
 mimir                   IN  A     192.168.1.75
-ns2                     IN  A     192.168.7.217
-ns3                     IN  A     192.168.1.24
 ntfy                    IN  A     104.21.16.1
 ntfy                    IN  A     104.21.32.1
 ntfy                    IN  A     104.21.48.1
