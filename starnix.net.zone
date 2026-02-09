@@ -9,7 +9,7 @@ $TTL 86400
                                   )
 ; NS records
 @                       IN  NS    ns1.starnix.net.
-ns1                     IN  A     192.168.7.210
+ns1                     IN  A     192.168.7.211
 ; A records for apex
 @                       IN  A     104.21.16.1
 @                       IN  A     104.21.32.1
