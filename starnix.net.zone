@@ -33,7 +33,6 @@ hb                      IN  A     192.168.1.86
 hbbr                    IN  A     192.168.1.35
 hbbs                    IN  A     192.168.1.35
 heimdal                 IN  A     192.168.1.1
-hello                   IN  A     192.168.1.169
 help                    IN  A     104.26.6.194
 help                    IN  A     172.67.75.83
 help                    IN  A     104.26.7.194
