@@ -103,6 +103,7 @@ mathesar                IN  CNAME ingress
 metabase                IN  CNAME ingress
 nova                    IN  CNAME jellyfin
 nsscache                IN  CNAME ingress
+password                IN  CNAME jellyfin
 privatebin              IN  CNAME jellyfin
 privatebin.service      IN  CNAME ingress
 speed                   IN  CNAME ingress
