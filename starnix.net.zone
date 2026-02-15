@@ -96,6 +96,7 @@ fleet                   IN  CNAME ingress
 freescout               IN  CNAME ingress
 go                      IN  CNAME ingress
 ha                      IN  CNAME jellyfin
+ha.service              IN  CNAME ingress
 krampus                 IN  CNAME jellyfin
 kronos                  IN  CNAME mimir
 longhorn                IN  CNAME ingress
