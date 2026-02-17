@@ -70,12 +70,12 @@ mimir                   IN  A     192.168.1.75
 nzb                     IN  A     192.168.1.86
 odin                    IN  A     184.97.157.56
 offsite-nas             IN  A     100.65.253.61
+otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
 radarr                  IN  A     192.168.1.86
 selene          1200    IN  A     172.16.4.108
 send                    IN  A     104.21.59.107
 send                    IN  A     172.67.223.92
-signoz                  IN  A     192.168.7.205
 sky                     IN  A     172.16.5.227
 soho                    IN  A     172.67.223.92
 soho                    IN  A     104.21.59.107
@@ -109,6 +109,7 @@ password                IN  CNAME jellyfin
 pdf                     IN  CNAME ingress
 privatebin              IN  CNAME jellyfin
 privatebin.service      IN  CNAME ingress
+signoz                  IN  CNAME ingress
 speed                   IN  CNAME ingress
 status                  IN  CNAME ingress
 trudesk                 IN  CNAME ingress
