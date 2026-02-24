@@ -98,6 +98,7 @@ freescout               IN  CNAME ingress
 go                      IN  CNAME ingress
 ha                      IN  CNAME cf
 ha.service              IN  CNAME ingress
+jellyfin                IN  CNAME ingress
 krampus                 IN  CNAME cf
 kronos                  IN  CNAME mimir
 longhorn                IN  CNAME ingress
