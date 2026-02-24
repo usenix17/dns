@@ -23,6 +23,13 @@ blog                    IN  A     172.66.47.197
 blog                    IN  A     172.66.44.59
 borg                    IN  A     192.168.7.204
 bork            1200    IN  A     192.168.1.86
+cf                      IN  A     104.21.16.1
+cf                      IN  A     104.21.32.1
+cf                      IN  A     104.21.48.1
+cf                      IN  A     104.21.64.1
+cf                      IN  A     104.21.80.1
+cf                      IN  A     104.21.96.1
+cf                      IN  A     104.21.112.1
 cometdb                 IN  A     192.168.1.33
 finnmac                 IN  A     192.168.1.15
 gnome                   IN  A     192.168.1.233
@@ -40,13 +47,6 @@ ipa                     IN  A     172.67.75.83
 ipa                     IN  A     100.69.0.28
 ipa-ca                  IN  A     192.168.1.24
 ipa1            1200    IN  A     192.168.1.24
-jellyfin                IN  A     104.21.16.1
-jellyfin                IN  A     104.21.32.1
-jellyfin                IN  A     104.21.48.1
-jellyfin                IN  A     104.21.64.1
-jellyfin                IN  A     104.21.80.1
-jellyfin                IN  A     104.21.96.1
-jellyfin                IN  A     104.21.112.1
 lidarr                  IN  A     192.168.1.86
 llama                   IN  A     104.26.6.194
 llama                   IN  A     104.26.7.194
@@ -91,23 +91,23 @@ wazuh                   IN  A     192.168.1.86
 ; CNAME records
 apprise                 IN  CNAME ingress
 argocd                  IN  CNAME ingress
-auth                    IN  CNAME jellyfin
+auth                    IN  CNAME cf
 borgwarehouse           IN  CNAME ingress
 fleet                   IN  CNAME ingress
 freescout               IN  CNAME ingress
 go                      IN  CNAME ingress
-ha                      IN  CNAME jellyfin
+ha                      IN  CNAME cf
 ha.service              IN  CNAME ingress
-krampus                 IN  CNAME jellyfin
+krampus                 IN  CNAME cf
 kronos                  IN  CNAME mimir
 longhorn                IN  CNAME ingress
 mathesar                IN  CNAME ingress
 metabase                IN  CNAME ingress
-nova                    IN  CNAME jellyfin
+nova                    IN  CNAME cf
 nsscache                IN  CNAME ingress
-password                IN  CNAME jellyfin
+password                IN  CNAME cf
 pdf                     IN  CNAME ingress
-privatebin              IN  CNAME jellyfin
+privatebin              IN  CNAME cf
 privatebin.service      IN  CNAME ingress
 signoz                  IN  CNAME ingress
 speed                   IN  CNAME ingress
