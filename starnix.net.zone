@@ -51,13 +51,6 @@ lidarr                  IN  A     192.168.1.86
 llama                   IN  A     104.26.6.194
 llama                   IN  A     104.26.7.194
 llama                   IN  A     172.67.75.83
-media                   IN  A     104.21.16.1
-media                   IN  A     104.21.32.1
-media                   IN  A     104.21.48.1
-media                   IN  A     104.21.64.1
-media                   IN  A     104.21.80.1
-media                   IN  A     104.21.96.1
-media                   IN  A     104.21.112.1
 memegen                 IN  A     104.21.16.1
 memegen                 IN  A     104.21.32.1
 memegen                 IN  A     104.21.48.1
@@ -104,6 +97,7 @@ krampus                 IN  CNAME cf
 kronos                  IN  CNAME mimir
 longhorn                IN  CNAME ingress
 mathesar                IN  CNAME ingress
+media                   IN  CNAME ingress
 metabase                IN  CNAME ingress
 nova                    IN  CNAME cf
 nsscache                IN  CNAME ingress
