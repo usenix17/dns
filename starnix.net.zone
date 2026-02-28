@@ -101,6 +101,7 @@ media                   IN  CNAME ingress
 metabase                IN  CNAME ingress
 nova                    IN  CNAME cf
 nsscache                IN  CNAME ingress
+ouija                   IN  CNAME cf
 password                IN  CNAME cf
 pdf                     IN  CNAME ingress
 privatebin              IN  CNAME ingress
