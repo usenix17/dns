@@ -103,8 +103,7 @@ nova                    IN  CNAME cf
 nsscache                IN  CNAME ingress
 password                IN  CNAME cf
 pdf                     IN  CNAME ingress
-privatebin              IN  CNAME cf
-privatebin.service      IN  CNAME ingress
+privatebin              IN  CNAME ingress
 proxy                   IN  CNAME ingress
 signoz                  IN  CNAME ingress
 speed                   IN  CNAME ingress
