@@ -94,6 +94,7 @@ ha.service              IN  CNAME ingress
 home                    IN  CNAME ingress
 jellyfin                IN  CNAME ingress
 krampus                 IN  CNAME cf
+krampus.service         IN  CNAME ingress
 kronos                  IN  CNAME mimir
 longhorn                IN  CNAME ingress
 mathesar                IN  CNAME ingress
