@@ -80,7 +80,7 @@ unpoller                IN  A     192.168.1.86
 vault                   IN  A     104.26.6.194
 vault                   IN  A     104.26.7.194
 vault                   IN  A     172.67.75.83
-wazuh                   IN  A     192.168.1.86
+wazuh                   IN  A     192.168.7.220
 ; CNAME records
 apprise                 IN  CNAME ingress
 argocd                  IN  CNAME ingress
@@ -114,6 +114,7 @@ status                  IN  CNAME ingress
 tarot                   IN  CNAME ingress
 trudesk                 IN  CNAME ingress
 vid                     IN  CNAME ingress
+wazuh-dash              IN  CNAME ingress
 weather                 IN  CNAME ingress
 ; SSHFP records
 bork            1200    IN  SSHFP 1 1 2A1E2CD3B9ADEC7966EE43D8AFA8DA8C01350891
