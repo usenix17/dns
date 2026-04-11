@@ -32,6 +32,7 @@ cf                      IN  A     104.21.96.1
 cf                      IN  A     104.21.112.1
 cometdb                 IN  A     192.168.1.33
 finnmac                 IN  A     192.168.1.15
+freebsd15               IN  A     192.168.1.106
 gnome                   IN  A     192.168.1.233
 hb                      IN  A     192.168.1.86
 heimdal                 IN  A     192.168.1.1
