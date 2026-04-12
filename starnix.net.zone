@@ -87,6 +87,7 @@ kronos                  IN  CNAME mimir
 nova                    IN  CNAME cf
 ouija                   IN  CNAME cf
 password                IN  CNAME cf
+warp                    IN  CNAME cf
 ; SSHFP records
 bork            1200    IN  SSHFP 1 1 2A1E2CD3B9ADEC7966EE43D8AFA8DA8C01350891
 bork            1200    IN  SSHFP 1 2 81CF51B4AA8B9F4A4913850A71DF2BF911D12F9A4428DD85407D13EAF1578699
