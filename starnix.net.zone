@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026041201 ; serial
+                                  2026041202 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -60,7 +60,7 @@ memegen                 IN  A     104.21.112.1
 mesh                    IN  A     172.16.5.143
 mimir                   IN  A     192.168.1.75
 nzb                     IN  A     192.168.1.86
-odin                    IN  A     184.97.157.56
+odin                    IN  A     75.163.87.97
 offsite-nas             IN  A     100.65.253.61
 otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
