@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026041210 ; serial
+                                  2026041301 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -23,13 +23,9 @@ blog                    IN  A     172.66.47.197
 blog                    IN  A     172.66.44.59
 borg                    IN  A     192.168.7.204
 bork            1200    IN  A     192.168.1.86
-cf                      IN  A     104.21.16.1
-cf                      IN  A     104.21.32.1
-cf                      IN  A     104.21.48.1
-cf                      IN  A     104.21.64.1
-cf                      IN  A     104.21.80.1
-cf                      IN  A     104.21.96.1
-cf                      IN  A     104.21.112.1
+cf                      IN  A     104.26.6.194
+cf                      IN  A     104.26.7.194
+cf                      IN  A     172.67.75.83
 cometdb                 IN  A     192.168.1.33
 finnmac                 IN  A     192.168.1.15
 freebsd15               IN  A     192.168.1.106
