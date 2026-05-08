@@ -31,6 +31,7 @@ finnmac                 IN  A     192.168.1.15
 freebsd15               IN  A     192.168.1.106
 gnome                   IN  A     192.168.1.233
 hb                      IN  A     192.168.1.86
+hecate                  IN  A     192.168.1.181
 heimdal                 IN  A     192.168.1.1
 ingress                 IN  A     192.168.7.203
 ipa                     IN  A     104.26.6.194
