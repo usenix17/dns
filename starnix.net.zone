@@ -57,6 +57,7 @@ nzb                     IN  A     192.168.1.86
 offsite-nas             IN  A     100.65.253.61
 oma                     IN  A     75.163.87.97
 omnios                  IN  A     192.168.1.76
+onion                   IN  A     192.168.1.99
 otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
 radarr                  IN  A     192.168.1.86
