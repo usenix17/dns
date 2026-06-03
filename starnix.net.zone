@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026060201 ; serial
+                                  2026060301 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -46,13 +46,6 @@ lighthouse1             IN  A     147.182.208.102
 llama                   IN  A     104.26.6.194
 llama                   IN  A     104.26.7.194
 llama                   IN  A     172.67.75.83
-memegen                 IN  A     104.21.16.1
-memegen                 IN  A     104.21.32.1
-memegen                 IN  A     104.21.48.1
-memegen                 IN  A     104.21.64.1
-memegen                 IN  A     104.21.80.1
-memegen                 IN  A     104.21.96.1
-memegen                 IN  A     104.21.112.1
 mesh                    IN  A     172.16.5.143
 mimir                   IN  A     192.168.1.75
 nzb                     IN  A     192.168.1.86
