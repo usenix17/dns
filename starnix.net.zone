@@ -42,6 +42,7 @@ ipa                     IN  A     100.69.0.28
 ipa-ca                  IN  A     192.168.1.24
 ipa1            1200    IN  A     192.168.1.24
 lidarr                  IN  A     192.168.1.86
+lighthouse1             IN  A     147.182.208.102
 llama                   IN  A     104.26.6.194
 llama                   IN  A     104.26.7.194
 llama                   IN  A     172.67.75.83
