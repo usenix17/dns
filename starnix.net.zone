@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026061001 ; serial
+                                  2026061301 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -76,6 +76,7 @@ ha                      IN  CNAME cf
 kronos                  IN  CNAME mimir
 nova                    IN  CNAME cf
 ouija                   IN  CNAME cf
+ipam                    IN  CNAME bork
 password                IN  CNAME cf
 tron                    IN  CNAME cf
 warp                    IN  CNAME cf
