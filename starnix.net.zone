@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026062703 ; serial
+                                  2026062704 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -42,7 +42,7 @@ ipa                     IN  A     100.69.0.28
 ipa-ca                  IN  A     192.168.1.25
 ipa1            1200    IN  A     192.168.1.24
 ipa2            1200    IN  A     192.168.1.25
-ipa3            1200    IN  A     192.168.1.26
+ipa9            1200    IN  A     192.168.1.26
 lidarr                  IN  A     192.168.1.86
 lighthouse1             IN  A     147.182.208.102
 llama                   IN  A     104.26.6.194
