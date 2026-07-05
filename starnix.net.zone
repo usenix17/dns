@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026062810 ; serial
+                                  2026070501 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -68,9 +68,10 @@ tel                     IN  A     104.26.6.194
 tel                     IN  A     104.26.7.194
 tel                     IN  A     172.67.75.83
 unpoller                IN  A     192.168.1.86
-vault                   IN  A     104.26.6.194
-vault                   IN  A     104.26.7.194
-vault                   IN  A     172.67.75.83
+vault			IN  A	  100.69.0.45
+;vault                   IN  A     104.26.6.194
+;vault                   IN  A     104.26.7.194
+;vault                   IN  A     172.67.75.83
 ; CNAME records
 ; Records formerly pointing to 'ingress' are now managed by ExternalDNS
 ; as A records (→ 192.168.7.207). Non-ingress CNAMEs remain here.
