@@ -80,6 +80,7 @@ kronos                  IN  CNAME mimir
 nova                    IN  CNAME cf
 ouija                   IN  CNAME cf
 ipam                    IN  CNAME bork
+log			IN  CNAME cf
 password                IN  CNAME cf
 tron                    IN  CNAME cf
 warp                    IN  CNAME cf
