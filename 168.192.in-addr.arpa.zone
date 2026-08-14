@@ -1,0 +1,15 @@
+; Reverse zone for the RFC1918 192.168.0.0/16 space (LAN + MetalLB).
+; Apex only -- Knot 3.4 reverse-generate synthesises all PTR records from the
+; A records in starnix.net (see applications/knot/knot.yaml in the ArgoCD repo).
+; zonefile-load is difference-no-serial, so the SOA serial here is not used for
+; change detection; Knot manages the served serial.
+$ORIGIN 168.192.in-addr.arpa.
+$TTL 86400
+@   IN  SOA ns1.starnix.net. admin.starnix.net. (
+            1          ; serial (ignored: difference-no-serial)
+            3600       ; refresh
+            900        ; retry
+            1209600    ; expire
+            3600       ; minimum
+            )
+@   IN  NS  ns1.starnix.net.
