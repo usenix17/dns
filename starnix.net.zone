@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026090402 ; serial
+                                  2026090801 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -59,7 +59,7 @@ openvas			IN  A	  192.168.1.59
 otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
 radarr                  IN  A     192.168.1.86
-selene          1200    IN  A     172.16.4.108
+selene          1200    IN  A     172.16.4.67 
 send                    IN  A     104.21.59.107
 send                    IN  A     172.67.223.92
 sky                     IN  A     172.16.5.155
