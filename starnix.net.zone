@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026092201 ; serial
+                                  2026092202 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -19,7 +19,6 @@ ns1                     IN  A     192.168.7.211
 @                       IN  A     104.21.96.1
 @                       IN  A     104.21.112.1
 ; Host records
-atlas-lan               IN  A     192.168.1.86
 beastyboi               IN  A     192.168.1.99
 blog                    IN  A     172.66.47.197
 blog                    IN  A     172.66.44.59
