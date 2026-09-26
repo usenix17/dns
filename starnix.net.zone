@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026092602 ; serial
+                                  2026092603 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
