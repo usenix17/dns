@@ -1,7 +1,7 @@
 $ORIGIN starnix.net.
 $TTL 86400
 @                       IN  SOA   ns1.starnix.net. admin.starnix.net. (
-                                  2026092603 ; serial
+                                  2026092604 ; serial
                                   3600       ; refresh
                                   900        ; retry
                                   1209600    ; expire
@@ -52,13 +52,13 @@ mesh                    IN  A     172.16.5.143
 mimir                   IN  A     192.168.1.75
 nzb                     IN  A     192.168.1.86
 odin			IN  A	  192.168.1.1
-offsite-nas             IN  A     100.69.0.47 
+offsite-nas             IN  A     100.69.0.47
 omnios                  IN  A     192.168.1.76
 openvas			IN  A	  192.168.1.59
 otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
 radarr                  IN  A     192.168.1.86
-selene          1200    IN  A     172.16.4.67 
+selene          1200    IN  A     172.16.4.67
 send                    IN  A     104.21.59.107
 send                    IN  A     172.67.223.92
 sky                     IN  A     172.16.5.155
@@ -71,9 +71,6 @@ tel                     IN  A     172.67.75.83
 unbound2                IN  A     192.168.1.54
 unpoller                IN  A     192.168.1.86
 vault			IN  A	  100.69.0.45
-;vault                   IN  A     104.26.6.194
-;vault                   IN  A     104.26.7.194
-;vault                   IN  A     172.67.75.83
 zfs			IN  A     192.168.1.57
 ; CNAME records
 ; Records formerly pointing to 'ingress' are now managed by ExternalDNS
@@ -94,12 +91,6 @@ bork            1200    IN  SSHFP 3 1 067DFE898CB3D7293A2B74168EA9FA753AD1B36E
 bork            1200    IN  SSHFP 3 2 1E14D033D643D850318996DE553815D82CDA35CBC3D660BC0F1F6A5A02446F83
 bork            1200    IN  SSHFP 4 1 375C9741489719B8B36E551F08F79667A7C5F2D3
 bork            1200    IN  SSHFP 4 2 74188613FC435121E339486D3EEB9E57A94E476A23B56BF3A75E39410F0D4055
-hecate          1200    IN  SSHFP 3 1 BB648ACE26CF96D719E765E4D5C3C89FDCBD9081
-hecate          1200    IN  SSHFP 3 2 7A8DD2DE1EFE719B0EF3D2D0F2D7154317DC3DE411C4A2EE4531CE6A1E1B3339
-hecate          1200    IN  SSHFP 1 1 E786CF7F8167C895E7722FF54CB31EDD0451D86E
-hecate          1200    IN  SSHFP 1 2 456AAC56DB610A46C0415DE1BD431D8A6BD902643A5A220CDEB9F074BEF03A3B
-hecate          1200    IN  SSHFP 4 1 D8F713DA4012F3F5E9F8E05D3A4EE99E43683A7B
-hecate          1200    IN  SSHFP 4 2 4972B3DB06272113109D3383AF74A6F2C7D7E1CC8971C316E3F1DBB281D435E3
 ; Kerberos / LDAP SRV records
 _kerberos               IN  TXT   "STARNIX.NET"
 _kerberos               IN  URI   0 100 "krb5srv:m:tcp:ipa9.starnix.net."
