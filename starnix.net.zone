@@ -19,6 +19,7 @@ ns1                     IN  A     192.168.7.211
 @                       IN  A     104.21.96.1
 @                       IN  A     104.21.112.1
 ; Host records
+akvorado		IN  A     192.168.1.183
 beastyboi               IN  A     192.168.1.99
 blog                    IN  A     172.66.47.197
 blog                    IN  A     172.66.44.59
@@ -82,7 +83,6 @@ ouija                   IN  CNAME cf
 ipam                    IN  CNAME bork
 log			IN  CNAME cf
 ntop			IN  CNAME huginn
-akvorado		IN  A     192.168.1.183
 password                IN  CNAME cf
 tron                    IN  CNAME cf
 warp                    IN  CNAME cf
