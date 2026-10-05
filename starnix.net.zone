@@ -58,6 +58,11 @@ omnios                  IN  A     192.168.1.76
 openvas			IN  A	  192.168.1.59
 otel                    IN  A     192.168.7.205
 print                   IN  A     192.168.1.62
+pve1			IN  A	  192.168.7.101
+pve2			IN  A     192.168.7.102
+pve3			IN  A     192.168.7.103
+pve4			IN  A     192.168.7.104
+pve5			IN  A     192.168.7.105
 radarr                  IN  A     192.168.1.86
 selene          1200    IN  A     172.16.4.67
 send                    IN  A     104.21.59.107
